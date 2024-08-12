@@ -28,7 +28,7 @@ Clone the Repository: Clone this repository to your local machine.
 
 bash
 Copy code
-git clone https://github.com/yourusername/ARInteractionExperiment.git
+git clone https://github.com/OJnwobodo/Fitts-LawInAR_PaperCode.git
 Open the Project in Unity:
 
 Launch Unity Hub and open the project from the cloned repository folder.
