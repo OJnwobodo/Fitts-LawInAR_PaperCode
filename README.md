@@ -27,7 +27,7 @@ Installation
 Clone the Repository: Clone this repository to your local machine.
 
 bash
-Copy code
+Copy code under the Master
 git clone https://github.com/OJnwobodo/Fitts-LawInAR_PaperCode.git
 Open the Project in Unity:
 
