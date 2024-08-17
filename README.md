@@ -13,7 +13,7 @@ Customization
 Troubleshooting
 License
 Project Overview
-This Unity project is designed to investigate user interactions with virtual objects in an AR environment. It uses the Microsoft HoloLens 2 to create an immersive AR experience, where users interact with objects placed in different spatial quadrants. The experiment captures various metrics related to object interaction, such as the time taken to interact, the user's head movement, and the positioning of objects.
+This Unity project is designed to investigate user interactions with virtual objects in an AR environment. It uses the Microsoft HoloLens 2 to create an immersive AR experience where users interact with objects placed in different spatial quadrants. The experiment captures various metrics related to object interaction, such as the time taken to interact, the user's head movement, and the positioning of objects.
 
 Setup Instructions
 Prerequisites
@@ -35,7 +35,7 @@ Launch Unity Hub and open the project from the cloned repository folder.
 Set Up the Scene:
 
 Open the provided scene in the Assets/Scenes/ directory.
-Ensure that all necessary prefabs (SphereObject, CubeObject, CarObject, ArrowPrefab, thankYouObject) are correctly assigned in the ObjectControl script within the Unity Inspector.
+Ensure all necessary prefabs (SphereObject, CubeObject, CarObject, ArrowPrefab, thankYouObject) are correctly assigned in the ObjectControl script within the Unity Inspector.
 Configure Player Settings:
 
 Go to Edit > Project Settings > Player, and configure the settings for HoloLens 2.
@@ -54,7 +54,7 @@ Launch the application on the HoloLens 2.
 Follow the on-screen instructions to enter your username, session ID, and the number of samples (objects) you wish to interact with.
 Interacting with Objects:
 
-Objects will appear in different spatial quadrants around the user. Use the HoloLens gaze and gesture controls to interact with these objects.
+Objects will appear in different spatial quadrants around the user. To interact with these objects, use the HoloLens gaze and gesture controls.
 An arrow will guide you to the next object after each interaction.
 Complete the Experiment:
 
@@ -68,10 +68,10 @@ Data Files:
 
 intrinsic_data_*.txt: Contains intrinsic matrix data.
 extrinsic_data_*.txt: Contains extrinsic matrix data.
-remaining_data_*.txt: Contains detailed interaction data including object type, position, head movement, etc.
+remaining_data_*.txt: Contains detailed interaction data, including object type, position, head movement, etc.
 Analysis:
 
-Use the saved data for further analysis. You can import the .txt files into your preferred data analysis tool to evaluate the experiment results.
+Save the data for further analysis. Import the .csv files into your preferred data analysis tool to evaluate the experiment results.
 Customization
 Modifying Object Types:
 
@@ -92,6 +92,6 @@ Data Not Saving:
 Check that the Application.persistentDataPath directory exists and is writable on the HoloLens 2.
 Input Issues:
 
-Ensure the Input_Activator script is attached to a GameObject in the scene and correctly configured.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+Ensure the Input_Activator script is correctly configured to a GameObject in the scene.
+To use this project and the associated dataset, you can cite this study using:
+
