@@ -2,16 +2,6 @@ AR Interaction Experiment
 
 This project contains a Unity script to conduct an Augmented Reality (AR) interaction experiment using the Microsoft HoloLens 2 and the XR Interaction Toolkit. The experiment evaluates user interactions with various virtual objects in a 3D space, capturing data on how users interact with these objects under different conditions. This README will guide you through setting up and running the experiment, as well as understanding the data collection process.
 
-Table of Contents
-Project Overview
-Setup Instructions
-Prerequisites
-Installation
-Running the Experiment
-Data Collection and Analysis
-Customization
-Troubleshooting
-License
 Project Overview
 This Unity project is designed to investigate user interactions with virtual objects in an AR environment. It uses the Microsoft HoloLens 2 to create an immersive AR experience where users interact with objects placed in different spatial quadrants. The experiment captures various metrics related to object interaction, such as the time taken to interact, the user's head movement, and the positioning of objects.
 
